@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.cell {
+  height:75px;
+  width:75px;
+  padding:1px;
+  margin:0px;
+  text-align: center;
+   font-family: 'Abril Fatface';
+     font-size: 24px;
+       font-weight: bold;
+         color: #333;
+           text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+           color: #C4EBC8;
+border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.unsel-cell {
+  background-color: #86A5D9;  
+}
+.sel-cell { 
+  background-color: #202A25;
+}
+
+.cbtn{ margin: 12px; padding: 12px;}
+
+div.small-cell {
+  height:30px;
+  width:30px;
+  font-size: 14px;
+}
+
+#guess {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+    justify-content: flex-start;
+  width:100%;
+}
+
+#middle {
+}
+
+.mid-col {
+  background-color: #5F4BB6;
+}
+
+

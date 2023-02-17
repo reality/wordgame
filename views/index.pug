@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  h1= title
+  div.container
+
+    table
+      tr
+        td.cell#c0
+        td.cell#c1
+        td.cell#c2
+      tr
+        td.cell#c3 
+        td.cell#middle.mid-col
+        td.cell#c4
+      tr
+        td.cell#c5
+        td.cell#c6
+        td.cell#c7
+
+    br 
+
+    #guess
+
+    br
+    button.cbtn.btn.btn-lg.btn-primary(type="button" onclick="clearGuess()")
+        span.glyphicon.glyphicon-remove
+              Remove
+    button.cbtn.btn.btn-lg.btn-primary(type="button" onclick="fillTable()")
+        span.glyphicon.glyphicon-refresh
+              Refresh
+    button.cbtn.btn.btn-lg.btn-primary(type="button" onclick="fillTable()")
+        span.glyphicon.glyphicon-ok
+              Check
